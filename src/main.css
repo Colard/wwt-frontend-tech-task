@@ -1,2 +1,13 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
+
+@theme {
+	/*COLORS*/
+	--color-primary: white;
+	--color-seondary: #31393c;
+	--color-light-gray: #b4b4b4;
+	--color-brand: #ff5f00;
+}
+
+@layer base {
+}
