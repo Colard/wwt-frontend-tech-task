@@ -4,10 +4,20 @@
 @theme {
 	/*COLORS*/
 	--color-primary: white;
-	--color-seondary: #31393c;
+	--color-secondary: #31393c;
 	--color-light-gray: #b4b4b4;
 	--color-brand: #ff5f00;
+	--color-blue: #078691;
 }
 
 @layer base {
+	* {
+		font-family: 'Inter', sans-serif;
+		color: var(--color-secondary);
+	}
+
+	button,
+	label {
+		@apply cursor-pointer;
+	}
 }

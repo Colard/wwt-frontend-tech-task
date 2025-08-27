@@ -1,1 +1,10 @@
-{}
+{
+  "openFilters": "Open Filters",
+  "filter": "Filter",
+  "reset": "Clear all parameters",
+  "apply": "Apply",
+  "filtersConfirm": "Do you want to apply new filter",
+  "filtersReject" : "Use old filters",
+  "filtersApply" : "Apply new filters",
+  "globlState": "Global state of filters:"
+}
