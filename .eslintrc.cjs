@@ -13,6 +13,7 @@ module.exports = {
 	parser: '@typescript-eslint/parser',
 	plugins: ['react-refresh', 'prefer-arrow', 'i18next'],
 	rules: {
+		'react/prop-types': 'off',
 		'react/react-in-jsx-scope': 'off',
 		'react-hooks/exhaustive-deps': 'off',
 		'prettier/prettier': 'warn',
